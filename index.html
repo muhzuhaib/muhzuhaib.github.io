@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zuhaib: software for developers and professionals</title>
+<meta name="description" content="Zuhaib is an independent software developer who builds and sells focused tools for developers and professionals.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f5f8b'/%3E%3Cpath d='M18 18h28v6L27 40h19v6H18v-6l19-16H18z' fill='white'/%3E%3C/svg%3E">
+<style>
+:root{--bg:#fbfaf7;--fg:#1d1d1b;--muted:#5d5b55;--line:#e4e1d8;--card:#ffffff;--accent:#1f5f8b}
+@media (prefers-color-scheme:dark){:root{--bg:#141414;--fg:#ecebe6;--muted:#a8a69f;--line:#2c2c2a;
+--card:#1c1c1b;--accent:#7cb6de}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",
+Roboto,sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 24px;
+padding-top:14px;padding-bottom:14px}
+.brand{font-weight:700;font-size:20px;color:var(--fg);text-decoration:none;letter-spacing:.2px}
+nav a{color:var(--muted);text-decoration:none;margin-right:16px;font-size:15px;white-space:nowrap}
+nav a:last-child{margin-right:0}
+nav a:hover,nav a[aria-current]{color:var(--fg)}
+.hero{display:flex;gap:24px;align-items:center;padding:48px 0 32px}
+.hero img{width:96px;height:96px;border-radius:50%;flex:none}
+.hero h1{margin:0 0 6px;font-size:34px;line-height:1.2}
+.hero p{margin:0;color:var(--muted);font-size:18px}
+section{padding:24px 0}
+h2{font-size:24px;margin:0 0 12px}
+h3{font-size:17px;margin:28px 0 10px;color:var(--muted);font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;
+display:flex;flex-direction:column}
+.card b{display:block;margin-bottom:4px}
+.card p{margin:0 0 10px;color:var(--muted);font-size:15px}
+.card a{font-size:15px;margin-top:auto}
+.legal{max-width:720px;padding:40px 0}
+.legal h1{font-size:30px;margin:0 0 4px}
+.legal .date{color:var(--muted);margin:0 0 24px}
+.legal h2{font-size:20px;margin:28px 0 8px}
+footer{border-top:1px solid var(--line);margin-top:40px;color:var(--muted);font-size:14px}
+footer .wrap{padding-top:20px;padding-bottom:28px}
+footer a{color:var(--muted)}
+@media (max-width:560px){.hero{flex-direction:column;align-items:flex-start;padding-top:32px}
+.hero h1{font-size:28px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><a class="brand" href="index.html">Zuhaib</a><nav><a href="index.html" aria-current="page">Home</a><a href="index.html#products">Products</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a><a href="refunds.html">Refunds</a><a href="index.html#contact">Contact</a></nav></div></header>
+<main class="wrap">
+<div class="hero"><img src="zuhaib.png" alt="Zuhaib" width="96" height="96"><div>
+<h1>Zuhaib</h1><p>Zuhaib is an independent software developer who builds and sells focused tools for developers and professionals.</p></div></div>
+<section><h2>What I sell</h2>
+<p>I build and sell software: plugins for JetBrains IDEs, apps for Windows on the Microsoft Store,
+WordPress plugins, and data tools on the Apify Store. Each app does one job well, opens with sensible defaults and needs no setup. Support comes straight from the developer: send a quick email for help, bug reports or feature requests.</p>
+<p>Products are sold as one-time purchases or as monthly and yearly subscriptions. Some have a free
+version and a paid plan with more features.</p></section>
+<section id="products"><h2>Products</h2><p>Each product below is sold on its store page, which shows its current price and plans.</p>
+<h3>Plugins for JetBrains IDEs</h3><div class="grid">
+<div class="card"><b>Sheets - XLSX Editor</b><p>Opens and edits Excel spreadsheets inside JetBrains IDEs.</p><a href="https://plugins.jetbrains.com/plugin/33088-sheets--xlsx-editor" rel="noopener">View on JetBrains Marketplace</a></div>
+<div class="card"><b>Logs - Large Log Viewer</b><p>Opens and searches very large log files inside the IDE.</p><a href="https://plugins.jetbrains.com/plugin/33365-logs--large-log-viewer" rel="noopener">View on JetBrains Marketplace</a></div>
+<div class="card"><b>Columns - Parquet and Avro Editor</b><p>Views and edits Parquet and Avro data files.</p><a href="https://plugins.jetbrains.com/plugin/33512-columns--parquet-and-avro-editor" rel="noopener">View on JetBrains Marketplace</a></div>
+<div class="card"><b>Cells - Notebook Viewer and Editor</b><p>Views and edits Jupyter notebooks inside the IDE.</p><a href="https://plugins.jetbrains.com/plugin/33637-cells--notebook-viewer-and-editor" rel="noopener">View on JetBrains Marketplace</a></div>
+<div class="card"><b>Tables - SQLite Database Editor</b><p>Views and edits SQLite database files inside the IDE.</p><a href="https://plugins.jetbrains.com/plugin/33949-tables--sqlite-database-editor" rel="noopener">View on JetBrains Marketplace</a></div>
+<div class="card"><b>CertLens - Certificates and Keystores</b><p>Inspects TLS certificates and Java keystores inside the IDE.</p><a href="https://plugins.jetbrains.com/plugin/34504-certlens--certificates-and-keystores" rel="noopener">View on JetBrains Marketplace</a></div>
+<div class="card"><b>SqlLogLens - Restore SQL from Logs</b><p>Rebuilds runnable SQL statements from application log files.</p><a href="https://plugins.jetbrains.com/plugin/34505-sqlloglens--restore-sql-from-logs" rel="noopener">View on JetBrains Marketplace</a></div>
+<div class="card"><b>Runcradle - Run GitHub Actions Locally</b><p>Runs one job of a GitHub Actions workflow locally in Linux containers from a JetBrains run configuration.</p><a href="https://plugins.jetbrains.com/plugin/34845-runcradle--run-github-actions-locally" rel="noopener">View on JetBrains Marketplace</a></div>
+</div>
+<h3>Apps for Windows</h3><div class="grid">
+<div class="card"><b>Safe Duplicate Finder</b><p>Finds duplicate files and removes them safely.</p><a href="https://apps.microsoft.com/detail/9NSK4Q0NP1RQ" rel="noopener">View on Microsoft Store</a></div>
+<div class="card"><b>Duplicate Folders</b><p>Finds and merges duplicate folders.</p><p>Add-on for Safe Duplicate Finder.</p><a href="https://apps.microsoft.com/detail/9NSK4Q0NP1RQ" rel="noopener">View on Microsoft Store</a></div>
+<div class="card"><b>Tracelift Document Cleaner</b><p>Removes hidden names, comments and tracked changes from Office and PDF files.</p><a href="https://apps.microsoft.com/detail/9NK7Q07XWTNV" rel="noopener">View on Microsoft Store</a></div>
+<div class="card"><b>BatesStamp</b><p>Numbers and labels the pages of legal PDF productions.</p><a href="https://apps.microsoft.com/detail/9NSVS89Q2PX1" rel="noopener">View on Microsoft Store</a></div>
+<div class="card"><b>FuelLedger</b><p>Prepares quarterly IFTA fuel tax returns for trucking fleets.</p><a href="https://apps.microsoft.com/detail/9PKZT1G843B3" rel="noopener">View on Microsoft Store</a></div>
+<div class="card"><b>WebWitness</b><p>Captures web pages as dated, tamper-evident legal evidence.</p><a href="https://apps.microsoft.com/detail/9N0J7F6SX2JF" rel="noopener">View on Microsoft Store</a></div>
+<div class="card"><b>SpeechLift</b><p>Transcribes audio and video to text and subtitles entirely on the user&#x27;s own PC, offline.</p><a href="https://apps.microsoft.com/detail/9NWD5PDC93QH" rel="noopener">View on Microsoft Store</a></div>
+</div>
+<h3>WordPress plugins</h3><div class="grid">
+<div class="card"><b>Postlint Content Audit</b><p>Finds posts missing images, excerpts, tags or alt text, and thin content.</p><a href="https://wordpress.org/plugins/postlint-content-audit/" rel="noopener">View on WordPress.org</a></div>
+<div class="card"><b>Glassfeed for WooCommerce</b><p>Builds Google, Meta and Pinterest product feeds for WooCommerce stores.</p><a href="https://wordpress.org/plugins/glassfeed-for-woocommerce/" rel="noopener">View on WordPress.org</a></div>
+</div>
+<h3>Data tools</h3><div class="grid">
+<div class="card"><b>Shopify Price, Restock &amp; New Product Monitor</b><p>Watches Shopify stores and reports only price, stock and catalogue changes.</p><a href="https://apify.com/muhzuhaib/shopify-change-monitor" rel="noopener">View on Apify Store</a></div>
+<div class="card"><b>Google Shopping Feed Validator &amp; Change Monitor</b><p>Checks a Merchant Center feed for errors, then watches it for changes.</p><a href="https://apify.com/muhzuhaib/google-shopping-feed-validator" rel="noopener">View on Apify Store</a></div>
+<div class="card"><b>arXiv Paper Monitor</b><p>Watches arXiv topics, keywords and authors; delivers only new papers.</p><a href="https://apify.com/muhzuhaib/arxiv-monitor" rel="noopener">View on Apify Store</a></div>
+<div class="card"><b>Mastodon Keyword &amp; Mention Monitor</b><p>Watches Mastodon hashtags, keywords and accounts; delivers only new matches.</p><a href="https://apify.com/muhzuhaib/mastodon-monitor" rel="noopener">View on Apify Store</a></div>
+</div>
+</section>
+<section id="contact"><h2>Contact</h2>
+<p>For help, bug reports, feature requests, billing questions or refunds, email <a href="mailto:support.zuhaib@gmail.com">support.zuhaib@gmail.com</a>.
+Every message is answered by the developer.</p>
+</section>
+</main>
+<footer><div class="wrap">Zuhaib, independent software developer (sole trader), Sargodha, Pakistan.
+Contact: <a href="mailto:support.zuhaib@gmail.com">support.zuhaib@gmail.com</a>. <a href="https://github.com/muhzuhaib" rel="noopener">GitHub</a><br>
+<a href="terms.html">Terms of Service</a> &middot; <a href="privacy.html">Privacy Policy</a> &middot;
+<a href="refunds.html">Refund Policy</a></div></footer>
+</body>
+</html>
